@@ -1,0 +1,18 @@
+:root{
+  --bm-blue:#4aa3f0;
+  --bm-orange:#ff8a3d;
+  --bm-purple:#8b5cf6;
+  --bm-yellow:#ffd24a;
+  --bm-bg:#ffffff;
+  --bm-text:#0f172a;
+}
+html,body,#__next{height:100%}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:var(--bm-bg);color:var(--bm-text)}
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+.btn-primary{background:linear-gradient(90deg,var(--bm-orange),var(--bm-yellow));color:#111;padding:.6rem 1rem;border-radius:8px;border:none}
+.btn-ghost{border:1px solid rgba(15,23,42,0.08);padding:.5rem .8rem;border-radius:8px}
+.header{background:#fff;box-shadow:0 1px 6px rgba(2,6,23,0.06)}
+.logo-badge{width:44px;height:44px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;background:linear-gradient(135deg,var(--bm-blue),var(--bm-purple));color:white}
+.card{background:white;border-radius:10px;padding:1rem;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+.hero-img{width:100%;height:320px;object-fit:cover;border-radius:10px}
+@media(max-width:720px){ .hero-img{height:200px} }

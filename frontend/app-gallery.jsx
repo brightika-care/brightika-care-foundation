@@ -1,0 +1,1 @@
+export default function Gallery(){const images=['/public/sample1.jpg','/public/sample2.jpg','/public/sample3.jpg'];return (<div><h2>Gallery</h2><div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:8,marginTop:12}}>{images.map((s)=> <img key={s} src={s} alt="" style={{width:'100%',height:120,objectFit:'cover',borderRadius:8}}/>)}</div></div>);}

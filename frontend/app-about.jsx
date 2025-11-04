@@ -1,0 +1,1 @@
+export default function About(){return (<div><h2>About Brightika Care Foundation</h2><p style={{color:'#475569',marginTop:8}}>Brightika Care Foundation is a de-addiction cum rehabilitation centre, psychiatric treatment centre and old age care unit. We combine clinical care, counseling and family involvement to support long-term recovery and dignified elder care.</p></div>);}
